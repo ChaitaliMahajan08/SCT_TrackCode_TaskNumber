@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkillCraft Technology | Responsive Landing Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary">
+        <a class="logo" href="index.html">
+          <span class="logo-mark">SCT</span>
+          SkillCraft
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Programs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <span class="kicker">Internship Task 01</span>
+            <h1>Responsive Landing Page</h1>
+            <p class="lead">
+              A multi-page site for SkillCraft Technology with a fixed navigation
+              menu that stays on screen, restyles on scroll, and highlights items on hover.
+            </p>
+            <div class="btn-row">
+              <a class="btn btn-primary" href="about.html">About SkillCraft</a>
+              <a class="btn btn-ghost" href="contact.html">Get in touch</a>
+            </div>
+          </div>
+          <aside class="hero-card">
+            <p class="card-label">Task brief</p>
+            <ul class="brief">
+              <li>Interactive navigation on hover</li>
+              <li>Style change when the page is scrolled</li>
+              <li>Fixed position, visible on every page</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Internship overview</h2>
+            <p class="lead">SkillCraft Technology assigns practical web tasks so interns can ship real pages, not only theory.</p>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <h3>Web development</h3>
+              <p>HTML, CSS, and JavaScript used to structure, style, and add interaction to a live landing page.</p>
+            </article>
+            <article class="card">
+              <h3>Responsive layout</h3>
+              <p>The same content adapts from desktop to mobile, including a compact menu on smaller screens.</p>
+            </article>
+            <article class="card">
+              <h3>Multi-page flow</h3>
+              <p>Home, About, Programs, and Contact share one header so the menu never disappears while browsing.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <span>© 2026 SkillCraft Technology</span>
+        <span>Internship · Task 01</span>
+      </div>
+    </footer>
+    <script src="js/nav.js"></script>
+  </body>
+</html>
